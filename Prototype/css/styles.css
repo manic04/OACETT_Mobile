@@ -1,0 +1,106 @@
+#logo{
+	display:block;
+	margin:0 auto;
+	width:200px;
+}
+body{
+	font-family:consolas;
+	text-shadow:none;
+}
+#profile-image img{
+	display: block;
+	padding: 2px;
+	margin: 0 auto;
+	border-radius:150px;
+	width: 180px;
+	height:180px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+#profile-name {
+	text-align:center;
+}
+#header {
+	margin-bottom:5px;
+	background-color:rgb(25,25,25);
+	text-shadow:none;
+}
+#footer {
+	margin-top:5px;
+	margin:0 auto;
+	align:center;
+	background-color:rgb(25,25,25);
+}
+
+#loginPanel table {
+	padding-top:10px;
+	border:none;
+		width:80%;
+		margin:0 auto;
+}
+#loginPanel tbody tr td {
+	background-color: white;
+}
+#header h1 {
+	color:red;
+}
+#footer h1{
+	color:white;
+}
+#heading1 {
+	text-align: center;
+}
+.collapsible-menu {
+	/*background-color:rgb(200,10,10);*/
+	/*box-shadow: 2px 2px 2px rgba(0, 0, 0, .8);*/	
+	color:white;
+	padding:10px 0px 10px 0px;
+}
+#contactInfo {
+	align:right;
+}
+.ui-block-a {
+	padding-right:0px;
+}
+#majorProgress #minorProgress {
+	text-shadow: none;
+}
+#footerList li a {
+	text-decoration:none;
+	color:white;
+	font-size:12px;
+	text-shadow:none;
+}
+#footerList li {
+	list-style-type:none;
+	color:red;
+	text-shadow:none;
+}
+
+@media screen and (max-width: 640px) {
+	table {
+		overflow-x: auto;
+		width:100%;
+	}
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #bbb;
+	width:100%;
+}
+td th {
+    border-top: 1px solid #ddd;
+    padding: 4px 8px;	
+	
+}
+th {
+	text-align:left;
+	color:red;
+	text-shadow:none;
+	background-color:rgb(25,25,25);
+}
+
+tbody tr:nth-child(even) td {
+	background-color: #eee;
+}

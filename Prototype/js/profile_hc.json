@@ -1,0 +1,30 @@
+{
+	"profile" : {
+		"firstName" : "Yogi",
+		"lastName" : "Bear",
+		"phone" : "9051234567",
+		"address" : "100 Main St.",
+		"education" : [
+			{
+				"school" : "Sheridan College",
+				"program" : "System Analyst",
+				"document" : "Advanced Diploma"
+			},
+			{
+				"school" : "Sheridan College", 
+				"program" : "Information Security",
+				"document" : "Bachelor's degree"
+			}
+		],
+		"professions" : [
+			{
+				"discipline" : "Security Analyst",
+				"status" : "C.E.T."
+			},
+			{
+				"discipline" : "Software Developer",
+				"status" : "C. Tech"
+			}	
+		]
+	}
+}

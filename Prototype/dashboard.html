@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>My Profile</title>
+		
+		<!--favicon-->
+		<link type="image/x-icon" rel="shortcut icon" href="img/favicon.ico" />
+		
+		<!-- Include meta tag to ensure proper rendering and touch zooming -->
+		<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+
+		<!--jquery_mobile-->
+		<script src="js/jquery.js" type="text/javascript"></script>
+		<script src="js/jquery-mobile.js"></script>
+		<link rel="stylesheet" href="css/jquery-mobile.css" type="text/css" />		
+
+		<!--custom-->
+		<link 	href="css/styles.css" type="text/css" rel="stylesheet" />
+		<script src="js/dashboard_data.js"></script>
+		<script src="js/mmenu.js"></script>
+		
+		<!--themeroller-->
+		<link rel="stylesheet" href="css/oacett.css" />
+		<link rel="stylesheet" href="css/oacett.min.css" />
+		<link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+		
+		<!--mmenu-->
+		<script src="js/jquery.mmenu.min.js" type="text/javascript"></script>			
+		<link href="css/jquery.mmenu.css"  type="text/css" rel="stylesheet" />			
+	</head>	
+
+	<body>
+		<!--Sidebar-->
+		<nav id="sidemenu">
+			<ul>
+				<li><a href="index.html" data-ajax="false">Home</a></li>
+				<li><a href="profile.html" data-ajax="false">Profile</a></li>
+				<li><a href="dashboard.html" data-ajax="false">Dashboard</a></li>
+				<li><a href="cpd.html" data-ajax="false">CPD Submission</a></li>
+				<li><a href="contact.html" data-ajax="false">Contact Us</a></li>
+				<li><a href="faq.html" data-ajax="false">F.A.Q.</a></li>
+			</ul>
+		</nav>
+		
+		<section data-theme='a'>
+			<!--header-->
+			<section id="header" data-role="header">
+				<a href="#sidemenu" class="ui-btn ui-icon-menu">Menu</a>
+				<h1 id="dash-header"></h1>
+				<a href="index.html" data-ajax='false' class="ui-btn ui-icon-menu">Home</a>
+			</section>
+			
+			<!--body-->
+			<section id="dashboard" class="ui-responsive my-breakpoint">		
+				<!--profile image / name-->
+				<section>
+					<section id='profile-image'>
+						<img src="img/bear.jpeg"></img>
+					</section>
+					<section id='profile-name'>
+						
+					</section>
+				</section>
+				<br />					
+			</section>
+			
+			<!--Dashboard sections-->
+			<section id='tableArea' data-role='main'>
+				<section id='contactArea'>
+					<form id='updateInfo' method='POST' action='#'>
+						<table id='contactTable' class='ui-responsive table-stroke ui-table ui-table-cell-label'>
+						
+						</table>
+						<table id='educationTable' class='ui-responsive table-stroke ui-table ui-table-cell-label'>
+						
+						</table>
+						<table id='professionTable' class='ui-responsive table-stroke ui-table ui-table-cell-label'>
+						
+						</table>
+						<a href='#' class='ui-btn'>Save</a>
+					</form>
+				</section>
+			</section>
+
+			<!--footer-->
+			<footer id="footer" data-role="footer" class='ui-grid-a ui-responsive'>
+			<section id="footerList" class='ui-block-a'>	
+					<ul>
+						<li>Controls</li>
+						<ul>
+							<li><a href="index.html" data-ajax="false">Home</a></li>
+							<li><a href="profile.html" data-ajax="false">Profile</a></li>
+							<li><a href="dashboard.html" data-ajax="false">Dashboard</a></li>
+							<li><a href="cpd.html" data-ajax="false">CPD Submission</a></li>
+							<li><a href="contact.html" data-ajax="false">Contact Us</a></li>
+							<li><a href="faq.html" data-ajax="false">F.A.Q.</a></li>
+							<li class='spacer' ><a href="login.html"data-ajax="false">Sign in</a></li>
+						</ul>
+					</ul>
+				</section>
+				<section id="footerList" class='ui-block-b'>
+					<ul>
+						<li>Info</li>
+						<ul>
+							<li><a href="#">Community</a></li>
+							<li><a href="#">Wiki</a></li>
+							<li><a href="#">F.A.Q.</a></li>
+						</ul>
+					</ul>
+				</section>
+			</footer>
+		</section>
+	</body>
+</html>
